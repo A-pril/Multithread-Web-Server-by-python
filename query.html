@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Query</title>
+</head>
+<body>
+
+    <!--根据class_id & class_name & Teacher 查询课表-->
+    <form method="post" action="/cgi-bin/query.py">
+
+        <select name="class_id">
+            <option value="00000">all</option>
+            <option>81200</option>
+            <option>10300</option>
+            <option>20300</option>
+            <option>20301</option>
+            <option>20500</option>
+            <option>20501</option>
+            <option>73400</option>
+            <option>73401</option>
+            <option>81200</option>
+            <option>81201</option>
+            <option>85400</option>
+            <option>85401</option>
+        </select>
+
+        <select name="class_name">
+            <option value="00000">all</option>
+            <option> Potions Class </option>
+            <option> Care of Magical Creatures </option>
+            <option> Transfiguration </option>
+            <option> Divination </option>
+            <option> History of Magic </option>
+            <option> Charms </option>
+        </select>
+
+        <select name="Teacher">
+            <option value="00000">all</option>
+            <option>Slughorn</option>
+            <option>Hagrid</option>
+            <option>McGonagall</option>
+            <option>Victor</option>
+            <option>Binns</option>
+            <option>Flitwick</option>
+        </select>
+
+        <input type="submit" value="submit" />
+    </form>
+
+
+</body>
+</html>
