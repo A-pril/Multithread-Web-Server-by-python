@@ -1,0 +1,13 @@
+127.0.0.1 8888--[26/9/2022-16:58:13] POST /cgi-bin/cal.py HTTP/1.1 1944 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/cal.html 
+127.0.0.1 8888--[26/9/2022-16:58:19] POST /cgi-bin/cal.py HTTP/1.1 1944 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/cal.html 
+127.0.0.1 8888--[26/9/2022-16:58:22] GET / HTTP/1.1 1200 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 
+127.0.0.1 8888--[26/9/2022-16:58:22] GET /style.css HTTP/1.1 765 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/ 
+127.0.0.1 8888--[26/9/2022-16:58:22] GET /images/Dandelion-by-Kim-Siever.jpg HTTP/1.1 124371 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/ 
+127.0.0.1 8888--[26/9/2022-16:58:22] GET /style.css HTTP/1.1 765 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/ 
+127.0.0.1 8888--[26/9/2022-16:58:22] GET /images/Dandelion-by-Kim-Siever.jpg HTTP/1.1 124371 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/ 
+127.0.0.1 8888--[26/9/2022-16:58:24] GET /hello.html HTTP/1.1 503 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/ 
+127.0.0.1 8888--[26/9/2022-16:58:25] GET /index.html HTTP/1.1 1200 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/hello.html 
+127.0.0.1 8888--[26/9/2022-16:58:25] GET /style.css HTTP/1.1 765 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/index.html 
+127.0.0.1 8888--[26/9/2022-16:58:26] GET /query.html HTTP/1.1 1580 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/index.html 
+127.0.0.1 8888--[26/9/2022-16:58:29] POST /cgi-bin/query.py HTTP/1.1 1751 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/query.html 
+127.0.0.1 8888--[26/9/2022-16:58:30] GET /query.html HTTP/1.1 1580 200 Mozilla/5.0(WindowsNT10.0;Win64;x64)AppleWebKit/537.36(KHTML,likeGecko)Chrome/100.0.4896.127Safari/537.36 http://127.0.0.1:8888/cgi-bin/query.py 

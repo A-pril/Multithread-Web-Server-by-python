@@ -43,7 +43,7 @@ print("</head>\n")
 print("<body>\n")
 
 print("<table border=\"1\"\n")
-print("<caption>Class Data</caption>\n" )
+
 print("<tr>\n")
 print("<th>ID</th>")
 print("<th>NAME</th>")

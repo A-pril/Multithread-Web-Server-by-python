@@ -29,6 +29,7 @@ b = ini[1].split("=")[1]
 # res = res.replace("$hostname", sys.argv[2])
 # res = res.replace("$port", sys.argv[3])
 # print(res)
+
 print("<html>\n")
 print("<head>\n")
 print("<meta charset=\"utf-8\">\n")
