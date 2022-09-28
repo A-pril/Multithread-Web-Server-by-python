@@ -10,7 +10,7 @@ This is a supplementary code repo for a tutorial I wrote: [Writing an HTTP serve
 Execute the `main.py` file. Example on Linux/Mac:
 
 ```sh
-$ python main.py
+$ python server.py
 ```
 
 Then visit `http://127.0.0.1:8888/index.html` from your browser.
