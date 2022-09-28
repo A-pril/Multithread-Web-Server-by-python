@@ -1,10 +1,53 @@
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+         h1 {text-align:center}
+        .inputText{
+            width: 500px;
+            height: 50px;
+            line-height: 30px;
+            font-size: 30px;
+            padding-left: 30px;
+            border-radius: 50px;
+            background-color: gainsboro;
+            border: none;
+        }
+        .inputText:focus{
+            outline: none;//设置所有的轮廓属性为none
+            background-color: lightblue;
+        }
+       .btn{
+            width: 150px;
+            height: 50px;
+            border: none;
+            background-color: green;
+            line-height: 50px;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            border-radius: 50px;
+        }
+        .btn:focus{
+            outline: none;
+        }
+        .btn-primary{
+            background-color: gainsboro;//修改框体颜色
+        }
 
-<body>
+    </style>
+</head>
+
+<body style="background-color: 	black">
     <form method="post" action="/cgi-bin/cal.py">
-        First num: <input type="text" name="num1"><br>
-        Last num: <input type="text" name="num2"><br>
-        <input type="submit" value="Cal" />
+        <h1><span style="color:white">First num: </span><input type="text" class="inputText" name="num1"></h1><br>
+        <p>                 </p>
+        <p>                 </p>
+        <h1><span style="color:white">Last num:  </span><input type="text" class="inputText" name="num2"></h1><br>
+        <h1><input type="submit" value="Cal" class="btn btn-primary" /></h1>
     </form>
 </body>
 

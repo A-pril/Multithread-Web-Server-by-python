@@ -2,14 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to Query</title>
+    <title>Query</title>
+    <style>
+         h1 {text-align:center}
+        .inputText{
+            width: 150px;
+            height: 50px;
+            line-height: 30px;
+            font-size: 30px;
+            padding-left: 30px;
+            border-radius: 50px;
+            background-color: gainsboro;
+            border: none;
+        }
+        .inputText:focus{
+            outline: none;//设置所有的轮廓属性为none
+            background-color: lightblue;
+        }
+
+       .btn{
+            width: 150px;
+            height: 50px;
+            border: none;
+            background-color: green;
+            line-height: 50px;
+            font-size: 30px;
+            text-align: center;
+            color: black;
+            border-radius: 50px;
+        }
+        .btn:focus{
+            outline: none;
+        }
+        .btn-primary{
+            background-color: gainsboro; //修改框体颜色
+        }
+
+    </style>
 </head>
-<body>
+<body style="background-color: 	black">
 
     <!--根据class_id & class_name & Teacher 查询课表-->
     <form method="post" action="/cgi-bin/query.py">
-
-        <select name="class_id">
+        <h1>
+        <select name="class_id" class="inputText">
             <option value="00000">all</option>
             <option>81200</option>
             <option>10300</option>
@@ -25,7 +61,7 @@
             <option>85401</option>
         </select>
 
-        <select name="class_name">
+        <select name="class_name" class="inputText">
             <option value="00000">all</option>
             <option> Potions Class </option>
             <option> Care of Magical Creatures </option>
@@ -35,7 +71,7 @@
             <option> Charms </option>
         </select>
 
-        <select name="Teacher">
+        <select name="Teacher" class="inputText">
             <option value="00000">all</option>
             <option>Slughorn</option>
             <option>Hagrid</option>
@@ -45,7 +81,8 @@
             <option>Flitwick</option>
         </select>
 
-        <input type="submit" value="submit" />
+        <input type="submit" value="submit" class="btn btn-primary" />
+        </h1>
     </form>
 
 

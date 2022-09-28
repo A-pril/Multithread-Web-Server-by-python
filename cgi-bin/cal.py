@@ -13,12 +13,10 @@ import sys
 # print("b0"+b0)
 
 ini = sys.argv[1]
-# b'a=2&b=3' -> 'a=2&b=3
-ini = ini[1:-1]
+# num1=xxx num2=xx
 ini = ini.split("&")
 a = ini[0].split("=")[1]
 b = ini[1].split("=")[1]
-
 # res = ""
 # with open("cgi-bin/cal_res.html", "r", encoding="utf-8") as f:
 #     for line in f:
@@ -36,9 +34,26 @@ print("<meta charset=\"utf-8\">\n")
 print("<title>CGI</title>\n")
 print("<style>")
 print("h2{width:600px;height:80px;border:solid 10px black;}\n")
+
+print(".btn{")
+print("width: 500px;")
+print("height: 50px;")
+print("background-color: gainsboro;")
+print("line-height: 50px;")
+print("font-size: 30px;")
+print("color: black;")
+print("border-radius: 50px;")
+print(".btn:focus{")
+print("outline: none;")
+print("}")
+print(".btn-primary{")
+print("background-color: gainsboro;")
+print("}")
+
+
 print("</style>")
 print("</head>\n")
-print("<body bgcolor = \"pink\">\n")
+print("<body style=\"background-color: 	black\">\n")
 # print("table width=\"500\" border=\"0\"\n")
 # print("<tr>\n")
 # print("<td colspan=\"2\" style=\"background-color:#FFA500;\">\n")
@@ -57,9 +72,10 @@ print("<body bgcolor = \"pink\">\n")
 # printf("</tr>\n")
 # printf("<tr>\n")
 # printf("<td colspan="2" style=\"background-color:#FFA500;text-align:center;\">\n")
-print("<h2><li><span style='color:green'>The Result is : </span>%s + %s = %s</h2>\n" % (a, b, str(float(b) + float(a))))
-print("<a href=\"http://127.0.0.1:8888/cal.html\"><h1><li>Return to CALCULATOR PAGE<h1></a>")
-print("<img src=\"./1.png\" width=\"700\" height=\"400\">")
-print("<img src=\"./2.png\" width=\"700\" height=\"400\">")
+print("<h1><span style=\"color:white\">The Result is : %s + %s = %s</span></h1>\n" % (a, b, str(float(b) + float(a))))
+# print("<a href=\"http://127.0.0.1:8888/cal.html\"><h1><li>Return to CALCULATOR PAGE<h1></a>")
+print("<h1><input type=\"button\" name=\"btn\" value=\"Return to CALCULATOR PAGE\" onclick=\"javascript:history.back(-1)\" class=\"btn btn-primary\"></h1>")
+#print("<img src=\"./1.png\" width=\"700\" height=\"400\">")
+#print("<img src=\"./2.png\" width=\"700\" height=\"400\">")
 print("</body>\n")
 print("</html>\n")

@@ -6,20 +6,77 @@ body {
     font-family: sans-serif;
     background-color: #eee;
     margin: 0;
+  /*  background-image: url("p2.jpg");
+    background-repeat: no-repeat;
+    background-position: 500px 500px;   */
 }
 
+/* 标题 */
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #000000;
+    color: white;
+}
+
+/* 导航 */
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/* 导航栏样式 */
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
 .container {
-    max-width: 800px;
+ /*   max-width: 800px;   */
     margin: auto;
     padding: 15px;
-    background-color: #fff;
+    background-color: #000000;
+    color: white;
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
 }
 
+
+
+
+.button { /* 按钮美化 */
+	width: 270px; /* 宽度 */
+	height: 40px; /* 高度 */
+	border-width: 0px; /* 边框宽度 */
+	border-radius: 3px; /* 边框半径 */
+	background: #1E90FF; /* 背景颜色 */
+	cursor: pointer; /* 鼠标移入按钮范围时出现手势 */
+	outline: none; /* 不显示轮廓线 */
+	font-family: Microsoft YaHei; /* 设置字体 */
+	color: white; /* 字体颜色 */
+	font-size: 17px; /* 字体大小 */
+}
+.button:hover { /* 鼠标移入按钮范围时改变颜色 */
+	background: #5599FF;
+}
+
+
+
+/*
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
+
+*/
 
 img {
     max-width: 100%;
