@@ -1,8 +1,8 @@
-# Crude Server
+# Multiple thread WebServer by python
 
-Minimal HTTP server written in Python for learning purpose.
+Minimal HTTP server written in Python.
 
-This is a supplementary code repo for a tutorial I wrote: [Writing an HTTP server from scratch][1].
+This is a supplementary code repo for reference: [Writing an HTTP server from scratch][1].
 
 
 ## Running the server
